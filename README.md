@@ -4,5 +4,9 @@ This is the configuration I use for my development laptop (a MacBook Pro). It’
 
 ## What’s in here?
 
-* vim look/feel
-* ZSH aliases and how to use them
+* vimrc: vim look/feel
+* zshrc: ZSH aliases and how to use them
+* gitconfig: toggle different profiles (primarily to note commits)
+* bash_profile: typically where I note my ENV variables
+
+Finally, I use apply-dotfiles.sh as a way of quickly sym linking from Google Drive to the computer I'm using. Effectively making me system agnostic.
