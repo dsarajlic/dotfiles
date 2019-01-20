@@ -2,6 +2,7 @@ set autoindent
 set indentexpr=off
 set expandtab
 set tabstop=4
+set number
 
 set sw=4
 set textwidth=80

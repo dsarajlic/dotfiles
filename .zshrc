@@ -121,8 +121,6 @@ alias y="yarn"
 
 
 # Project specific alias
-
-
 function mkcdir () {
     mkdir -p -- "$1" &&
       cd -P -- "$1"
