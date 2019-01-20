@@ -1,0 +1,3 @@
+pbpaste | source $(dirname $0)/md-quote | pbcopy
+echo "text in clipboard now quoted"
+
