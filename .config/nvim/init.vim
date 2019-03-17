@@ -1,15 +1,12 @@
 """""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""
-
 set encoding=utf-8          " The encoding displayed
 set fileencoding=utf-8      " The encoding written to file
 syntax on                   " Enable syntax highlight
 set ttyfast                 " Faster redrawing
 set lazyredraw              " Only redraw when necessary
 set cursorline              " Find the current line quickly.
-
-
 
 """""""""""""""""""""""""""""""""""""""""""""""
 " => Plugins List
@@ -35,9 +32,6 @@ Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 " A client to TSSServer so that we can get autocompletion
 Plug 'Quramy/tsuquyomi'
 
-" rust support
-Plug 'rust-lang/rust.vim'
-
 " NERDTree
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 
@@ -57,10 +51,7 @@ Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
 " linting engine
 Plug 'w0rp/ale'
 
-
 call plug#end()
-
-
 
 """""""""""""""""""""""""""""""""""""""""""""""
 " => Plugin Related Configs
@@ -196,16 +187,18 @@ set guioptions-=L
 """""""""""""""""""""""""""""""""""""""""""""""
 
 " dont use arrowkeys
-noremap <Up> <NOP>
-noremap <Down> <NOP>
-noremap <Left> <NOP>
-noremap <Right> <NOP>
+" need to enable after the fact
+" noremap <Up> <NOP>
+" noremap <Down> <NOP>
+" noremap <Left> <NOP>
+" noremap <Right> <NOP>
 
 " really, just dont
-inoremap <Up>    <NOP>
-inoremap <Down>  <NOP>
-inoremap <Left>  <NOP>
-inoremap <Right> <NOP>
+" need to nable after the fact #2
+" inoremap <Up>    <NOP>
+" inoremap <Down>  <NOP>
+" inoremap <Left>  <NOP>
+" inoremap <Right> <NOP>
 
 " copy and paste to/from vIM and the clipboard
 nnoremap <C-y> +y
