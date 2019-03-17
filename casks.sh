@@ -23,3 +23,5 @@ brew cask install virtualbox
 brew cask install virtualbox-extension-pack
 brew cask install mamp
 brew cask install vlc
+brew cask install genymotion
+brew cask install keka
