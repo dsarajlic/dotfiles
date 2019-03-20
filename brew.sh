@@ -21,6 +21,9 @@ ln -s "${BREW_PREFIX}/bin/gsha256sum" "${BREW_PREFIX}/bin/sha256sum"
 
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
 brew install findutils
+brew install bash
+brew install bash-completion2
+
 # Install GNU `sed`, overwriting the built-in `sed`.
 brew install gnu-sed --with-default-names
 
@@ -34,6 +37,7 @@ brew install ag
 
 # This is needed for python support on Neovim for YouCompleteMe
 # Please see https://github.com/neovim/neovim/issues/1315
+brew install vim --with-override-system-vi
 brew install python3
 pip3 install --user --upgrade neovim
 
@@ -49,10 +53,11 @@ brew install openssh
 
 # Install other useful binaries.
 brew install git
+brew install php
 brew install yarn --without-node
 brew install tmux
-
-
+brew install imagemagick --with-webp
+brew install ssh-copy-id
 
 # -------------------------------
 # Casks
@@ -64,12 +69,10 @@ brew install cask
 brew cask install tunnelblick
 brew cask install mamp
 brew cask install keka
-brew cask install ssh-copy-id
 brew cask install iterm2
+brew cask install genymotion
 
 brew cask install vlc
-
-brew cask install genymotion 
 
 # Browsers
 brew cask install google-chrome

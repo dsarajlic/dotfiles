@@ -9,10 +9,10 @@ git pull origin master;
 
 function doIt() {
 	rsync --exclude ".git/" \
-		--exclude "install.sh" \
-		--exclude "README.md" \
-		--exclude "LICENSE" \
-		-avh --no-perms . ~;
+		  --exclude "install.sh" \
+		  --exclude "README.md" \
+		  --exclude "LICENSE" \
+		  -avh --no-perms . ~;
 	source ~/.bash_profile;
 }
 
