@@ -12,6 +12,9 @@ function doIt() {
 		  --exclude "install.sh" \
 		  --exclude "README.md" \
 		  --exclude "LICENSE" \
+		  --exclude "brew.sh" \
+		  --exclude "bin"
+		  --exclude "init"
 		  -avh --no-perms . ~;
 	source ~/.bash_profile;
 }
