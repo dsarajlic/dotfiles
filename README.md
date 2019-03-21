@@ -13,6 +13,14 @@ This is the configuration I use for my development laptop (a MacBook Pro). It’
 
 Finally, I use apply-dotfiles.sh as a way of quickly sym linking from Google Drive to the computer I'm using. Effectively making me system agnostic.
 
+### nvim
+```
+nvim
+:PlugInstall
+:UpdateRemotePlugins
+```
+
+
 
 ### tmux
 
