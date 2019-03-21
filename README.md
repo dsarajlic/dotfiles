@@ -12,3 +12,8 @@ This is the configuration I use for my development laptop (a MacBook Pro). It’
 * .tmux.conf: tmux config file
 
 Finally, I use apply-dotfiles.sh as a way of quickly sym linking from Google Drive to the computer I'm using. Effectively making me system agnostic.
+
+
+### tmux
+
+To install tpm you can do so via: `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`

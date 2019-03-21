@@ -25,6 +25,10 @@ brew install bash
 brew install bash-completion2
 brew install zsh
 
+# To make tmux "set-option -g default-command "reattach-to-user-namespace -l
+# zsh" work
+brew install reattach-to-user-namespace
+
 # Install GNU `sed`, overwriting the built-in `sed`.
 brew install gnu-sed --with-default-names
 
