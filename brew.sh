@@ -23,6 +23,7 @@ ln -s "${BREW_PREFIX}/bin/gsha256sum" "${BREW_PREFIX}/bin/sha256sum"
 brew install findutils
 brew install bash
 brew install bash-completion2
+brew install zsh
 
 # Install GNU `sed`, overwriting the built-in `sed`.
 brew install gnu-sed --with-default-names
@@ -79,9 +80,6 @@ brew cask install google-chrome
 brew cask install firefox
 
 brew cask install slack
-
-# Backup
-brew cask install google-backup-and-sync
 
 # Vim and friends
 brew install vim --with-override-system-vi

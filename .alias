@@ -1,6 +1,7 @@
 # General alias
 alias v="vim"
 alias e="emacs"
+alias n="neovim"
 alias more="cat"
 alias zs="source ~/.zshrc"
 alias zshrc="vi ~/.zshrc"
