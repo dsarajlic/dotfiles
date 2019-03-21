@@ -1,7 +1,7 @@
 # General alias
 alias v="vim"
 alias e="emacs"
-alias n="neovim"
+alias n="nvim"
 alias vimdiff="nvim -d"
 alias more="cat"
 alias zs="source ~/.zshrc"
