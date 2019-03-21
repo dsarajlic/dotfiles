@@ -13,8 +13,8 @@ function doIt() {
 		  --exclude "README.md" \
 		  --exclude "LICENSE" \
 		  --exclude "brew.sh" \
-		  --exclude "bin"
-		  --exclude "init"
+		  --exclude "bin" \
+		  --exclude "init" \
 		  -avh --no-perms . ~;
 	source ~/.bash_profile;
 }
