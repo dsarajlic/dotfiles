@@ -75,6 +75,9 @@ brew cask install genymotion
 
 brew cask install vlc
 
+# Backup
+brew cask install google-backup-and-sync
+
 # Browsers
 brew cask install google-chrome
 brew cask install firefox
