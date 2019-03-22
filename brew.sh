@@ -24,6 +24,8 @@ brew install findutils
 brew install bash
 brew install bash-completion2
 brew install zsh
+brew install tree
+
 
 # To make tmux "set-option -g default-command "reattach-to-user-namespace -l
 # zsh" work
