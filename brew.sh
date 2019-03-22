@@ -83,7 +83,7 @@ brew cask install mamp
 brew cask install keka
 brew cask install iterm2
 brew cask install genymotion
-
+brew cask install spectacle
 brew cask install vlc
 
 # Backup
