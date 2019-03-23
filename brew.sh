@@ -72,6 +72,7 @@ brew install imagemagick --with-webp
 brew install ssh-copy-id
 
 brew install node
+brew install nvm
 brew install watchman
 
 # -------------------------------
