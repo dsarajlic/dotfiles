@@ -65,6 +65,7 @@ brew install openssh
 
 # Install other useful binaries.
 brew install git
+brew install htop
 brew install php
 brew install yarn --without-node
 brew install tmux
