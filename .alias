@@ -6,6 +6,7 @@ alias vimdiff="nvim -d"
 alias more="cat"
 alias zs="source ~/.zshrc"
 alias zshrc="vi ~/.zshrc"
+alias idea='open -a "`ls -dt /Applications/IntelliJ\ IDEA*|head -1`"'
 alias g="git"
 alias gconf="git config --global user.email"
 alias gphm="git push heroku master"
