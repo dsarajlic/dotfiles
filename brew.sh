@@ -45,6 +45,7 @@ brew install gnupg
 # This is needed for fzf to know how to ignore files listed in .gitignore
 # and know how to show hidden files
 # It is also a good CLI tool
+brew install fzf
 brew install ag
 
 # This is needed for python support on Neovim for YouCompleteMe

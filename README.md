@@ -15,12 +15,8 @@ Finally, I use apply-dotfiles.sh as a way of quickly sym linking from Google Dri
 
 ### Neovim
 
-Unix
-
-```
-curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-```
+You will need to install VimPlug, via the instructions on
+https://github.com/junegunn/vim-plug#usage
 
 followed by:
 ```
