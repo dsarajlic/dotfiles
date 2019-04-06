@@ -4,6 +4,7 @@ alias e="emacs"
 alias n="nvim"
 alias vimdiff="nvim -d"
 alias more="cat"
+alias ktmux="pkill -f tmux"
 alias zs="source ~/.zshrc"
 alias zshrc="vi ~/.zshrc"
 alias idea='open -a "`ls -dt /Applications/IntelliJ\ IDEA*|head -1`"'
