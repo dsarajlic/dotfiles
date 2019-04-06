@@ -28,4 +28,4 @@ followed by:
 
 To install tpm you can do so via: `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
 
-If you have any issues please run `:HealthCheck`
+If you have any issues please run `:CheckHealth`
