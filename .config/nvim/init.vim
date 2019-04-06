@@ -187,18 +187,16 @@ set guioptions-=L
 """""""""""""""""""""""""""""""""""""""""""""""
 
 " dont use arrowkeys
-" need to enable after the fact
-" noremap <Up> <NOP>
-" noremap <Down> <NOP>
-" noremap <Left> <NOP>
-" noremap <Right> <NOP>
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
 
 " really, just dont
-" need to nable after the fact #2
-" inoremap <Up>    <NOP>
-" inoremap <Down>  <NOP>
-" inoremap <Left>  <NOP>
-" inoremap <Right> <NOP>
+inoremap <Up>    <NOP>
+inoremap <Down>  <NOP>
+inoremap <Left>  <NOP>
+inoremap <Right> <NOP>
 
 " copy and paste to/from vIM and the clipboard
 nnoremap <C-y> +y
