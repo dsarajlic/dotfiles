@@ -11,14 +11,12 @@ This is the configuration I use for my development laptop (a MacBook Pro). It’
 * .bash_profile: typically where I note my ENV variables
 * .tmux.conf: tmux config file
 
-Finally, I use apply-dotfiles.sh as a way of quickly sym linking from Google Drive to the computer I'm using. Effectively making me system agnostic.
+Finally, I use install.sh as a way of quickly installing from the git repo. Effectively making me system agnostic.
 
 ### Neovim
 
 You will need to install VimPlug, via the instructions on
-https://github.com/junegunn/vim-plug#usage
-
-followed by:
+https://github.com/junegunn/vim-plug#usage, followed by:
 ```
 :PlugInstall
 :UpdateRemotePlugins
@@ -26,8 +24,8 @@ followed by:
 
 ### tmux
 
-To install tpm you can do so via: `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
-
+To install tpm you can do so via: `git clone https://github.com/tmux-plugins/tpm
+~/.tmux/plugins/tpm`
 If you have any issues please run `:CheckHealth`
 
 ### YouCompleteMe
@@ -36,4 +34,6 @@ Installing YCM is a pain to install, please ensure:
 YCM won't work with the pre-installed Vim from Apple as its Python support is
 broken. If you don't already use MacVim, install it with Homebrew. Install CMake
 as well:
-`brew install cmake macvim`
+```
+brew install cmake macvim
+```
