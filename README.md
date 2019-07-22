@@ -29,3 +29,11 @@ followed by:
 To install tpm you can do so via: `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
 
 If you have any issues please run `:CheckHealth`
+
+### YouCompleteMe
+
+Installing YCM is a pain to install, please ensure:
+YCM won't work with the pre-installed Vim from Apple as its Python support is
+broken. If you don't already use MacVim, install it with Homebrew. Install CMake
+as well:
+`brew install cmake macvim`
