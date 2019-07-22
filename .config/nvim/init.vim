@@ -125,8 +125,8 @@ let g:ale_lint_on_text_changed = 'always'
 let g:ale_lint_delay = 1000
 
 " use emojis for errors and warnings
-let g:ale_sign_error = '✗\ '
-let g:ale_sign_warning = '⚠\ '
+let g:ale_sign_error = '✗'
+let g:ale_sign_warning = '⚠'
 
 " fixer configurations
 let g:ale_fixers = {
@@ -180,8 +180,6 @@ set guioptions-=R
 set guioptions-=l
 set guioptions-=L
 
-
-
 """""""""""""""""""""""""""""""""""""""""""""""
 " => Keymappings
 """""""""""""""""""""""""""""""""""""""""""""""
@@ -220,7 +218,6 @@ nnoremap ,df    :YcmCompleter GoToDefinition<CR>
 nnoremap ,#     :YcmCompleter GoToReferences<CR>
 
 
-
 """""""""""""""""""""""""""""""""""""""""""""""
 " => Indentation
 """""""""""""""""""""""""""""""""""""""""""""""
@@ -243,7 +240,6 @@ set ai
 " Smart indent
 " Automatically inserts one extra level of indentation in some cases, and works for C-like files
 set si
-
 
 
 """""""""""""""""""""""""""""""""""""""""""""""
