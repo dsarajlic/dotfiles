@@ -14,9 +14,6 @@ set cursorline              " Find the current line quickly.
 
 call plug#begin()
 
-" nord-vim colorscheme
-Plug 'arcticicestudio/nord-vim'
-
 " neomake
 Plug 'neomake/neomake'
 
@@ -155,9 +152,6 @@ let g:user_emmet_settings = {
 
 " 256 colors
 set t_Co=256
-
-" set colorscheme
-colorscheme nord
 
 " long lines as just one line (have to scroll horizontally)
 set nowrap
