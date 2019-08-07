@@ -91,6 +91,7 @@ brew cask install iterm2
 brew cask install genymotion
 brew cask install spectacle
 brew cask install vlc
+brew cask install keepassxc
 
 # Backup
 brew cask install google-backup-and-sync
