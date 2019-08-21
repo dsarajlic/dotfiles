@@ -70,6 +70,7 @@ brew install htop
 brew install php
 brew install yarn --without-node
 brew install tmux
+brew install jq
 brew install imagemagick --with-webp
 brew install ssh-copy-id
 
