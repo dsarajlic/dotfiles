@@ -56,12 +56,12 @@ pip3 install --user --upgrade neovim
 
 # Install `wget` with IRI support.
 brew install wget --with-iri
-
 brew install curl
 
 # Install more recent versions of some macOS tools.
 brew install neovim
 brew install grep
+brew install ack
 brew install openssh
 
 # Install other useful binaries.
@@ -73,7 +73,6 @@ brew install tmux
 brew install jq
 brew install imagemagick --with-webp
 brew install ssh-copy-id
-
 brew install node
 brew install nvm
 brew install watchman
