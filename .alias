@@ -34,7 +34,6 @@ alias glr='gl -n 7'
 alias git-clean-merged="git branch --merged master | grep -v 'master$' | xargs git branch -d"
 alias git-clean-remote-merged="git branch -r --merged | grep -v master | sed 's/origin\///' | xargs -n 1 git push --delete origin"
 alias run="npm run"
-alias code="code-insiders"
 alias sudomongod="sudo mongod --smallfiles"
 alias y="yarn"
 
