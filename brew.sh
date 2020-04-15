@@ -45,8 +45,8 @@ brew install gnupg
 # This is needed for fzf to know how to ignore files listed in .gitignore
 # and know how to show hidden files
 # It is also a good CLI tool
-brew install fzf
-brew install ag
+# brew install fzf
+# brew install ag
 
 # This is needed for python support on Neovim for YouCompleteMe
 # Please see https://github.com/neovim/neovim/issues/1315
@@ -73,6 +73,7 @@ brew install tmux
 brew install jq
 brew install imagemagick --with-webp
 brew install ssh-copy-id
+# eg. ssh-copy-id user@hostname.example.com
 brew install node
 brew install nvm
 brew install watchman
@@ -84,14 +85,14 @@ brew install watchman
 brew install cask
 
 # Dev utilities
-brew cask install tunnelblick
+# brew cask install tunnelblick
 brew cask install mamp
 brew cask install keka
 brew cask install iterm2
 brew cask install genymotion
 brew cask install spectacle
 brew cask install vlc
-brew cask install keepassxc
+# brew cask install keepassxc
 
 # Backup
 brew cask install google-backup-and-sync
