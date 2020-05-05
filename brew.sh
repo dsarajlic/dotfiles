@@ -37,14 +37,13 @@ fi;
 brew install reattach-to-user-namespace
 
 # Install GNU `sed`, overwriting the built-in `sed`.
-brew install gnu-sed --with-default-names
+brew install gnu-sed
 
 # Install GnuPG to enable PGP-signing commits.
 brew install gnupg
 
 # This is needed for fzf to know how to ignore files listed in .gitignore
 # and know how to show hidden files
-# It is also a good CLI tool
 # brew install fzf
 # brew install ag
 
@@ -54,8 +53,8 @@ brew install vim --with-override-system-vi
 brew install python3
 pip3 install --user --upgrade neovim
 
-# Install `wget` with IRI support.
-brew install wget --with-iri
+# Install `wget` and `curl`
+brew install wget
 brew install curl
 
 # Install more recent versions of some macOS tools.
@@ -68,12 +67,15 @@ brew install openssh
 brew install git
 brew install htop
 brew install php
-brew install yarn --without-node
+brew install yarn
 brew install tmux
 brew install jq
-brew install imagemagick --with-webp
-brew install ssh-copy-id
+brew install imagemagick
+
 # eg. ssh-copy-id user@hostname.example.com
+brew install ssh-copy-id
+
+# JS Specific
 brew install node
 brew install nvm
 brew install watchman
@@ -81,7 +83,6 @@ brew install watchman
 # -------------------------------
 # Casks
 # -------------------------------
-
 brew install cask
 
 # Dev utilities
@@ -92,7 +93,7 @@ brew cask install iterm2
 brew cask install genymotion
 brew cask install spectacle
 brew cask install vlc
-# brew cask install keepassxc
+brew cask install keepassxc
 
 # Backup
 brew cask install google-backup-and-sync
@@ -104,13 +105,11 @@ brew cask install firefox
 brew cask install slack
 
 # Vim and friends
-brew install vim --with-override-system-vi
-brew install neovim --with-override-system-vi
+brew install vim
+brew install neovim
 nvim +PlugClean! +qall
 nvim +silent +PlugInstall +qall
 python3 ~/.config/nvim/plugged/YouCompleteMe/install.py
-
-brew install tmux
 
 # Docker
 brew install docker
