@@ -1,10 +1,11 @@
 set autoindent
 set indentexpr=off
 set expandtab
-set tabstop=4
+set tabstop=2
 set number
 
-set sw=4
+" tab size when using '>'
+set sw=2
 set textwidth=80
 set nohls
 set noshowmatch
