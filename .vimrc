@@ -1,3 +1,4 @@
+" Watch https://www.youtube.com/watch?v=XA2WjJbmmoM to see how below works:
 " FINDING FILES:
 " Search down into subfolders
 " Provides tab-completion for all file related-tasks
