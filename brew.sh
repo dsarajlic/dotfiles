@@ -114,6 +114,10 @@ nvim +PlugClean! +qall
 nvim +silent +PlugInstall +qall
 python3 ~/.config/nvim/plugged/YouCompleteMe/install.py
 
+# install vim-plug
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
 # Docker
 brew install docker
 brew install docker-compose

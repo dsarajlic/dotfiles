@@ -73,3 +73,8 @@ set shortmess=at
 " 2-space indent for html and json files
 autocmd BufRead,BufNewFile *.json,*.html,*.css,*.svg set sw=2 tabstop=2
 autocmd BufRead,BufNewFile Makefile,makefile,*Makefile,*makefile set noexpandtab
+
+" adding plugins
+call plug#begin('~/.vim/plugged')
+Plug 'ctrlpvim/ctrlp.vim'
+call plug#end()
